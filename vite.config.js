@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
       name: "psyer",
-      fileName: (format) => `${format}.js`,
+      fileName: (format) => `psyer.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
