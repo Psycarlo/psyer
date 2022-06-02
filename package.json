@@ -1,7 +1,18 @@
 {
   "name": "psyer",
-  "private": true,
   "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": ".dist/psyer.umd.js",
+  "module": "./dist/psyer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/psyer.es.js",
+      "require": "./dist/psyer.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
