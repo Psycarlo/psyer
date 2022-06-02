@@ -1,10 +1,10 @@
 {
   "name": "psyer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "files": [
     "dist"
   ],
-  "main": ".dist/psyer.umd.js",
+  "main": "./dist/psyer.umd.js",
   "module": "./dist/psyer.es.js",
   "exports": {
     ".": {
